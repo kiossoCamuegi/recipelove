@@ -542,7 +542,7 @@ body .recipe-testimonials article .av{
 
 
 
- body  .toogle,
+ body .recipe-navbar .toggle,
   body .responsive-navbar{
    display: none !important;
  }
