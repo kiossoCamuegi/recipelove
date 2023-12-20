@@ -15,7 +15,7 @@ function Navbar() {
          </div>
          <ul className="d-flex menu">
            <li><Link to="/">Home</Link></li>
-           <li><Link to="/">Sobre</Link></li>
+           <li><Link to="/">About</Link></li>
            <li><Link to="/">Recipes</Link></li>
            <li><Link to="/">Contacts</Link></li>
          </ul>
@@ -29,7 +29,7 @@ function Navbar() {
            <div className="toggle btn" onClick={()=>setToggle(Toggle === false ? true : false)}> <AiOutlineClose/> </div>
            <ul className="d-flex">
            <li><Link to="/">Home</Link></li>
-           <li><Link to="/">Sobre</Link></li>
+           <li><Link to="/">About</Link></li>
            <li><Link to="/">Recipes</Link></li>
            <li><Link to="/">Contacts</Link></li>
            <br />
